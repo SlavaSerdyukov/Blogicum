@@ -27,6 +27,5 @@ class PostAdmin(admin.ModelAdmin):
     autocomplete_fields = ('author', 'category', 'location')
 
 
-
 if admin.site.is_registered(Group):
     admin.site.unregister(Group)
