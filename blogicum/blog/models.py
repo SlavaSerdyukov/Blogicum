@@ -83,7 +83,7 @@ class Post(BaseBlogModel):
         verbose_name='Местоположение',
     )
 
-    class Meta(BaseBlogModel.Meta):
+    class Meta:
         default_related_name = 'posts'
         verbose_name = 'публикация'
         verbose_name_plural = 'Публикации'
